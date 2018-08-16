@@ -1,0 +1,21 @@
+{
+  "name": "chat.md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha **/*.test.js"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.15.1",
+    "socket.io": "2.1.1"
+  }
+}
