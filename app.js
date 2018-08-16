@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
   
   socket.on('join', (params, callback) => {
     if (!params.name || !params.room) {
-      return callback('Scrie numele daun');
+      return callback('Name and room name are required');
     }
  
     socket.join(params.room);
